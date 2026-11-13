@@ -1,4 +1,4 @@
-# RoboDK robotics tasks
+# RoboDK Project
 
 Python station builders for an ABB IRB120 doing welding, deburring and milling. Each task builds as its own RoboDK station.
 
@@ -8,8 +8,6 @@ Python station builders for an ABB IRB120 doing welding, deburring and milling. 
 - `simple_task2.py`: deburrs the outer top edges and the circular hole edge with the spindle tilted 45°.
 - `simple_task3.py`: mills pockets A, B and C and side hole D.
 - `simple_common.py`: shared geometry helpers, station setup and validation.
-
-Keep the four Python files in the same directory, because the task scripts import `simple_common.py`.
 
 ## Setup and use
 
